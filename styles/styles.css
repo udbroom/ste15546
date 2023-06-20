@@ -6,3 +6,6 @@
  * 
  *
  */
+p a, p a:active {
+  text-decoration: underline;
+}
