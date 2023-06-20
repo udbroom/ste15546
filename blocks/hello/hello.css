@@ -1,0 +1,50 @@
+.hello {
+  padding: var(--spacing-xxl);
+  background: var(--color-gray-800);
+  color: #FFF;
+  border-bottom: 50px solid #ff1616;
+}
+.hello:nth-child(3) h1 {
+  color: red;
+}
+.hello p {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+               -12px 12px #7e57c2,
+               -16px 16px #2196f3,
+               -20px 20px #26c6da,
+               -24px 24px #43a047,
+               -28px 28px #eeff41,
+               -32px 32px #f9a825,
+               -36px 36px #ff5722;
+}
+.hello.rainbow .hello-name {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: none;
+  line-height: 45px;
+}
+/* 
+.hello {
+  width: 1200px;
+  margin:auto;
+}
+.hello > div {
+  padding:200px;
+  background: #bbb;
+  border: 1px solid red;
+}
+
+.hello.circle > div {
+  border-radius: 50%;
+  width: 200px;
+  text-align: center;
+} */
